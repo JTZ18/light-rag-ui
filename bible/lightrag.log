@@ -290,3 +290,55 @@
 2024-12-01 00:44:49,006 - lightrag - INFO - Load KV full_docs with 11 data
 2024-12-01 00:44:49,018 - lightrag - INFO - Load KV text_chunks with 1133 data
 2024-12-01 00:44:49,282 - lightrag - INFO - Loaded graph from ./bible/graph_chunk_entity_relation.graphml with 7572 nodes, 7321 edges
+2024-12-01 01:22:13,265 - lightrag - INFO - Logger initialized for working directory: ./bible
+2024-12-01 01:22:13,282 - lightrag - INFO - Load KV llm_response_cache with 2497 data
+2024-12-01 01:22:13,291 - lightrag - INFO - Load KV full_docs with 11 data
+2024-12-01 01:22:13,302 - lightrag - INFO - Load KV text_chunks with 1133 data
+2024-12-01 01:22:13,552 - lightrag - INFO - Loaded graph from ./bible/graph_chunk_entity_relation.graphml with 7572 nodes, 7321 edges
+2024-12-01 01:22:39,568 - lightrag - INFO - Creating a new event loop in main thread.
+2024-12-01 01:22:45,483 - lightrag - INFO - Local query uses 60 entites, 16 relations, 3 text units
+2024-12-01 01:22:45,524 - lightrag - INFO - Global query uses 9 entites, 19 relations, 3 text units
+2024-12-01 01:22:45,615 - lightrag - INFO - Local query uses 60 entites, 16 relations, 3 text units
+2024-12-01 01:22:45,644 - lightrag - INFO - Global query uses 9 entites, 19 relations, 3 text units
+2024-12-01 01:54:09,134 - lightrag - INFO - Creating a new event loop in main thread.
+2024-12-01 01:54:12,967 - lightrag - INFO - Local query uses 60 entites, 20 relations, 3 text units
+2024-12-01 01:54:12,996 - lightrag - INFO - Global query uses 20 entites, 60 relations, 3 text units
+2024-12-01 01:54:13,072 - lightrag - INFO - Local query uses 60 entites, 20 relations, 3 text units
+2024-12-01 01:54:13,098 - lightrag - INFO - Global query uses 20 entites, 60 relations, 3 text units
+2024-12-01 02:08:27,602 - lightrag - INFO - Logger initialized for working directory: ./bible
+2024-12-01 02:08:27,619 - lightrag - INFO - Load KV llm_response_cache with 2501 data
+2024-12-01 02:08:27,627 - lightrag - INFO - Load KV full_docs with 11 data
+2024-12-01 02:08:27,638 - lightrag - INFO - Load KV text_chunks with 1133 data
+2024-12-01 02:08:27,891 - lightrag - INFO - Loaded graph from ./bible/graph_chunk_entity_relation.graphml with 7572 nodes, 7321 edges
+2024-12-01 02:08:47,920 - lightrag - INFO - Creating a new event loop in main thread.
+2024-12-01 02:08:48,546 - lightrag - INFO - Local query uses 60 entites, 16 relations, 3 text units
+2024-12-01 02:08:48,582 - lightrag - INFO - Global query uses 9 entites, 19 relations, 3 text units
+2024-12-01 02:08:48,672 - lightrag - INFO - Local query uses 60 entites, 16 relations, 3 text units
+2024-12-01 02:08:48,701 - lightrag - INFO - Global query uses 9 entites, 19 relations, 3 text units
+2024-12-01 02:09:33,557 - lightrag - INFO - Creating a new event loop in main thread.
+2024-12-01 02:09:39,795 - lightrag - INFO - Local query uses 60 entites, 118 relations, 3 text units
+2024-12-01 02:09:39,829 - lightrag - INFO - Global query uses 20 entites, 60 relations, 3 text units
+2024-12-01 02:09:39,901 - lightrag - INFO - Local query uses 60 entites, 118 relations, 3 text units
+2024-12-01 02:09:39,927 - lightrag - INFO - Global query uses 20 entites, 60 relations, 3 text units
+2024-12-01 02:13:48,420 - lightrag - INFO - Logger initialized for working directory: ./bible
+2024-12-01 02:13:48,441 - lightrag - INFO - Load KV llm_response_cache with 2503 data
+2024-12-01 02:13:48,448 - lightrag - INFO - Load KV full_docs with 11 data
+2024-12-01 02:13:48,460 - lightrag - INFO - Load KV text_chunks with 1133 data
+2024-12-01 02:13:48,705 - lightrag - INFO - Loaded graph from ./bible/graph_chunk_entity_relation.graphml with 7572 nodes, 7321 edges
+2024-12-01 02:14:16,795 - lightrag - INFO - Creating a new event loop in main thread.
+2024-12-01 02:15:52,838 - lightrag - INFO - Logger initialized for working directory: ./bible
+2024-12-01 02:15:52,856 - lightrag - INFO - Load KV llm_response_cache with 2503 data
+2024-12-01 02:15:52,864 - lightrag - INFO - Load KV full_docs with 11 data
+2024-12-01 02:15:52,875 - lightrag - INFO - Load KV text_chunks with 1133 data
+2024-12-01 02:15:53,130 - lightrag - INFO - Loaded graph from ./bible/graph_chunk_entity_relation.graphml with 7572 nodes, 7321 edges
+2024-12-01 02:15:54,922 - lightrag - INFO - Creating a new event loop in main thread.
+2024-12-01 02:17:38,120 - lightrag - INFO - Logger initialized for working directory: ./bible
+2024-12-01 02:17:38,137 - lightrag - INFO - Load KV llm_response_cache with 2503 data
+2024-12-01 02:17:38,145 - lightrag - INFO - Load KV full_docs with 11 data
+2024-12-01 02:17:38,156 - lightrag - INFO - Load KV text_chunks with 1133 data
+2024-12-01 02:17:38,402 - lightrag - INFO - Loaded graph from ./bible/graph_chunk_entity_relation.graphml with 7572 nodes, 7321 edges
+2024-12-01 02:17:45,355 - lightrag - INFO - Creating a new event loop in main thread.
+2024-12-01 02:17:51,756 - lightrag - INFO - Local query uses 60 entites, 130 relations, 3 text units
+2024-12-01 02:17:52,881 - lightrag - INFO - Global query uses 12 entites, 60 relations, 3 text units
+2024-12-01 02:17:54,076 - lightrag - INFO - Local query uses 60 entites, 130 relations, 3 text units
+2024-12-01 02:17:55,221 - lightrag - INFO - Global query uses 12 entites, 60 relations, 3 text units
