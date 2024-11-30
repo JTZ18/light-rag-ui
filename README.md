@@ -6,9 +6,9 @@ A Streamlit-based web interface for querying text using LightRAG (Retrieval-Augm
 
 - Multiple query modes:
   - Hybrid (combines local and global search)
-  - Naive (simple text matching)
-  - Local (context-aware search)
-  - Global (semantic search)
+  - Naive
+  - Local
+  - Global
 - Interactive web interface
 - Collapsible context sections showing:
   - Entities
@@ -18,7 +18,7 @@ A Streamlit-based web interface for querying text using LightRAG (Retrieval-Augm
 
 ## Prerequisites
 
-- Python 3.11 or higher
+- Python 3.11
 - A Jina AI API key
 - A Naga API key
 
