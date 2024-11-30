@@ -1,0 +1,14 @@
+aioboto3==13.2.0
+lightrag-hku==1.0.1
+langfuse==2.55.0
+python-dotenv
+streamlit==1.40.2
+pandas==2.2.3
+ollama==0.4.2
+openai==1.55.3
+transformers==4.46.3
+torch==2.5.1
+tiktoken==0.8.0
+nano-vectordb==0.0.4.3
+neo4j==5.27.0
+oracledb==2.5.0
