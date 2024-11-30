@@ -1,16 +1,47 @@
 import os
 from lightrag import LightRAG, QueryParam
-from lightrag.llm import openai_complete_if_cache
+from lightrag.llm import ollama_model_complete, ollama_embedding, openai_complete_if_cache
 from lightrag.utils import EmbeddingFunc
 from dotenv import load_dotenv
 import asyncio
 from langfuse.decorators import observe
+import sys
+from types import ModuleType
+from importlib.util import find_spec
 import aiohttp
 import numpy as np
 import streamlit as st
 
 # Load environment variables from .env file if it exists (local development)
 load_dotenv()
+
+# Monkey patch the openai imports in lightrag.llm
+def patch_lightrag_llm():
+    """
+    Monkey patch the openai imports in lightrag.llm to use langfuse.openai instead
+    """
+    # Create a fake openai module with our desired imports
+    class FakeOpenAI(ModuleType):
+        def __init__(self):
+            super().__init__("openai")
+            # Import the error classes from real openai
+            from openai import APIConnectionError, RateLimitError, Timeout
+            self.APIConnectionError = APIConnectionError
+            self.RateLimitError = RateLimitError
+            self.Timeout = Timeout
+            # Import the async clients from langfuse.openai
+            from langfuse.openai import AsyncOpenAI, AsyncAzureOpenAI
+            self.AsyncOpenAI = AsyncOpenAI
+            self.AsyncAzureOpenAI = AsyncAzureOpenAI
+
+    # Find lightrag.llm in sys.modules
+    if "lightrag.llm" in sys.modules:
+        # Replace the openai module reference in lightrag.llm
+        sys.modules["lightrag.llm"].openai = FakeOpenAI()
+
+# Apply the patch before importing anything from lightrag
+patch_lightrag_llm()
+
 
 # Get environment variables with fallback to Streamlit secrets
 def get_env_var(var_name: str) -> str:
